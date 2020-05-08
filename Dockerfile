@@ -1,6 +1,6 @@
 FROM mhart/alpine-node:12
 
-ENV HUGO_VERSION 0.62.2
+ENV HUGO_VERSION 0.69.2
 ENV HUGO_EXTENDED_BINARY hugo_extended_${HUGO_VERSION}_Linux-64bit
 
 # Install Firebase tools
