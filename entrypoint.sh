@@ -7,6 +7,9 @@ hugo version
 # Use input parameters
 FIREBASE_DEPLOY_KEY=$1
 ALIAS=${2:-alias}
+WORKING_DIRECTORY=${3:-.}
+
+cd $WORKING_DIRECTORY
 
 # Build site
 hugo
