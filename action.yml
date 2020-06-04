@@ -7,6 +7,11 @@ inputs:
   firebase-token:
     description: 'Firebase token (obtained via firebase tools -- firebase login:ci)'
     required: true
+  alias:
+    description: 'Firebase project alias.'
+    required: true
+  working-directory:
+    description: 'The relative path to the directory that points to hugo root. Repo root is used by default.'
 runs:
   using: 'docker'
   image: 'Dockerfile'
